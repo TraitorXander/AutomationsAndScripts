@@ -1,0 +1,2790 @@
+<EngineConfiguration>
+  <CANBus name="CAN 0">
+    <ECU ecuName="ECU 0" ecuPrefix="CCP1" engPrefix="AE31a">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\ME17831G_16_18A5_etk_ehooks.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\LAB_ASAP_v8_DSG_AMS_AE31a_1ECU.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>te_l</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long)</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>APP_r</Name>
+            <Units>%</Units>
+            <Description>Standardized accelerator pedal position</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_ctEntry</Name>
+            <Units></Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_10</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_11</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_12</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_13</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_14</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_15</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_16</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_17</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_18</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_19</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_6</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_7</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_8</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_9</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tmot</Name>
+            <Units>Grad C</Units>
+            <Description>Engine temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 1" ecuPrefix="CCP2" engPrefix="AE31a">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\ME17831G_16_18A5_slave_ehooks.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\LAB_ASAP_v8_DSG_AMS_AE31a_1ECU - SLAVE.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_10</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_11</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_12</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_13</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_14</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_15</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_16</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_17</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_18</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_19</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_6</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_7</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_8</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_9</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 2" ecuPrefix="CCP1" engPrefix="AE34">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\ME17831J_22_20A0_eh.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\AE34.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>te_l</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long)</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_ctEntry</Name>
+            <Units></Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>APP_r</Name>
+            <Units>%</Units>
+            <Description>Standardized accelerator pedal position</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tmot</Name>
+            <Units>Grad C</Units>
+            <Description>Engine temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 3" ecuPrefix="CCP2" engPrefix="AE34">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\ME17831J_22_20A0_eh_Slave.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\AE34 - Slave.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+          </Measurement>
+          <Measurement>
+            <HorusID></HorusID>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+  </CANBus>
+</EngineConfiguration>
