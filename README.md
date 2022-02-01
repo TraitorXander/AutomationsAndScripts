@@ -3,12 +3,12 @@ Collection of scripts I've created to help with specific tasks or automating a s
 
 ---
 
-AutomationAndScripts
-├───AutoCS
-├───FoldersInFolder
-├───GraphTest
-├───HorusIDGrabber
-└───PythonSockets
+AutomationAndScripts<br>
+├───AutoCS<br>
+├───FoldersInFolder<br>
+├───GraphTest<br>
+├───HorusIDGrabber<br>
+└───PythonSockets<br>
 
 ---
 
