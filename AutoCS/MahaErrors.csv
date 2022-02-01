@@ -1,0 +1,57 @@
+No, Code, Meaning
+0,OK,No error occurred
+1,Unknown error,A not yet categorized error occurred
+2,Command unknown,The transmitted command is not included in the MET command set
+3,Incorrect number of parameters,The number of parameters in the frame does notmatch the required number of parameters for this command (see Excel table for an overview of the required parameters).
+4,Illegal parameter,At least one parameter contains an invalid value for this command.
+5,Execution not possible,This command cannot be executed in the current status of the MET.
+6,CRC not OK,The transmitted checksum does not match the checksum calculated by the MET.
+7,Termination by user,The execution of a command was terminated by user input.
+8,Warm-up not completed,The MET is still in the warm-up phase and cannot execute the command.
+9,Calibration period exceeded,The MET is no longer calibrated and therefore no longer provides usable data.
+10,Not ready for measurement (leak or HC test),The required tests for the measurement were not all completed and passed.
+11,Adjustment not possible:,No zero balance could be performed.
+12,HC value too high,The HC value has exceeded the prescribed limit. The MET waits until the HC value falls into normal range.
+13,Leak test error - tube recognition,The probe tube is not fixed to the MET correctly or blocked or closed.
+14,Leak test error - pressure build-up,The device still has negative pressure (vacuum).
+15,Leak test - minimum pressure not achieved,The required negative pressure (vacuum) required for the leak test could not be achieved.
+16,Gas flow too low,The gas flow is too low for a valid measurement by the MET. The tube might be blocked.
+17,Incorrect data code,The code transmitted for setting the date is incorrect.
+18,No NO sensor, There is no NO sensor installed in the MET.
+19,Not available for current device type,The command or the required part of this command is known to the MET however not available in this version of the device.
+20,Device should be cleaned,The tube system of the MET is very dirty and should be cleaned.
+21,Initialisation incomplete,The MET did not complete initialisation and therefore cannot process the command.
+22,Test failed,The relevant test failed.
+23,Measurement in progress,The MET is currently in measurement mode and cannot execute the command.
+24,Error counter too high: answers disabled,10 commands with length or parameter errors were received. The MET stops sending response frames until a valid command is transmitted.
+25,Unallocated measurement range,The particle calibration is not possible with this particle load.
+26,Zero balance in progress,The command cannot be executed as zero balancing is in process.
+27,Current particulate value is zero,The particle calibration cannot be performed as the current measured particulate value is zero.
+28,Leak test in progress,The command cannot be executed as a leak test is in progress.
+29,HC residue test in progress:,The command cannot be executed as an HC residue test is in progress.
+30,Frame does not have the specified length,The transmitted length does not match the data length of the received frame.
+31,HC error: O2 value too low,The oxygen value has fallen below the required minimum value during the HC residue test. Possibly a probe is still in the exhaust.
+32,HC: O2 value OK again,The oxygen level has returned to normal values.
+33,Programming failed,The variable could not be programmed.
+34,No user-defined measurement availabl,No prior user-defined measurement has been started which could be returned.
+35,Overpressure in gas outlet,The pressure at the gas outlet became too high. Possibly the outlet is blocked.
+36,Reset did not initialise,The variables reset could not be performed because it was not initialised correctly.
+37,Only available during measurement,The specified command or the requested variable is only available during measuring.
+38,Missing zero termination,A string parameter in the request was not zero terminated as prescribed.
+39,WiFi: Configuration is still running,The command cannot be processed as the requested WiFi connection has not been completed.
+40,WiFi: Configuration not possible,Displays when a configuration command was received although the MET has no WiFi module.
+41,Gas adjustment failed,This is displayed if an error occurs when the gas values are being adjusted. (O2 does not fall under the minimal value during the specified time => no adjustment gas connected; at least one desired gas channel could not be successfully adjusted – possibly impermissible adjustment values entered).
+42,Measuring bench hardware error,This is displayed if the measuring bench has detected an error and cannot measure any gas values.
+43,Ethernet reception buffer overflow,This is displayed if the reception buffer for ethernet EDP datasets is overfull. The command that generated this error message was not processed by MET. It is recommended that the transmission frequency of commands be lowered to avoid such overflows.
+44,Pump not running,This is displayed if the pump is not running although it is needed to measure a required value.
+45,Zero-point adjustment error,This is displayed if a required zero point adjustment of the device (gas or particle) has not been successfully carried out.
+46,Water extractor not active,This is displayed if the water extractor is not active during a reading which could result in damage to the device.
+47,Filter blocked,This is displayed if the MET has determined that the gas or particle filter is too blocked which means that a valid reading cannot take place.
+48,Measured value frozen,This is displayed if the measuring value from the MET has currently been frozen by a command. The measuring values transmitted do not correspond with the currently measured chamber content in this case.
+49,Zero point recommended,This is displayed if the MET would urgently recommend a zero point but this is not yet essential for guaranteeing a valid measurement. A measurement value is displayed but a zero point adjustment should be carried out as soon as possible after receipt of this error message.
+50,Measuring bench communication faulty,This is displayed if the measuring bench no longer responds correctly. There is a likely hardware error.
+51,Measuring bench environmental conditions not OK - check gas outlet!,This is displayed if the measuring bench is not being operated under authorised conditions. Most likely the gas outlet is closed and too much overpressure is building up.
+52,Measuring bench gas concentration not OK.,This is displayed if at least one gas that is being measured in the measuring bench is outside the measurable range.
+53,Zero point error NO,This is displayed if the NO sensor was not adjustable during zero point adjustment possibly due to ageing of the sensor.
+54,Zero point error NO2,This is displayed if the NO2 sensor was not adjustable during zero point adjustment possibly due to ageing of the sensor.
+55,O2 sensor error,This is displayed if the O2 sensor was not adjustable during zero point adjustment possibly due to ageing of the sensor.
