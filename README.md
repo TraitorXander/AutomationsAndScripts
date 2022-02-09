@@ -41,6 +41,15 @@ Implement into using data logs
 
 ---
 
+### HexToBits
+#### Date:   2022-02-03
+#### Purpose:
+To test I wasnt going mad with some hexadecimal to bit conversion. It loops through each of the hex bytes and prints out a list of indexes and bits.
+#### Future Development:
+None planned
+
+---
+
 ### HorusIDGrabber
 #### Date:   2022-01-20
 #### Purpose:
