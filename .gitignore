@@ -1,3 +1,6 @@
+# Ignore all projects in here
+Not For Publish/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
