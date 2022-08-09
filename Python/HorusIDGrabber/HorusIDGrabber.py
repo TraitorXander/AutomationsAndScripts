@@ -2,12 +2,13 @@ import csv
 from locale import currency
 import sys
 import os
-from hamcrest import none
-from numpy import empty
+# from hamcrest import none
+# from numpy import empty
 import pandas as pd
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
+# Files to import/read from
 channel_csv_path = "20220131_ChannelExport.csv"
 xml_config_path = "3005_DSG_CanCcp.xml"
 

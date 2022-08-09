@@ -1,0 +1,3276 @@
+<EngineConfiguration LastUpdate="2022:22:07 09:53:33">
+  <CANBus name="can 0">
+    <ECU ecuName="ECU 0" ecuPrefix="CCP1" engPrefix="AE31a">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\ME17831G_16_18A5_etk_ehooks.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\LAB_ASAP_v8_DSG_AMS_AE31a_1ECU.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>2</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>3</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>4</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>5</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>6</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>7</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>8</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>9</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>te_l</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long)</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>10</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>11</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>12</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>13</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>14</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>15</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>16</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>17</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>18</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>19</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>20</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>21</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>22</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>23</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>24</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>25</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <Name>APP_r</Name>
+            <Units>%</Units>
+            <Description>Standardized accelerator pedal position</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>26</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_ctEntry</Name>
+            <Units></Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>27</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>28</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>29</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_10</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>30</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_11</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>31</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_12</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>32</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_13</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>33</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_14</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>34</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_15</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>35</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_16</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>36</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_17</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>37</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_18</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>38</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_19</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>39</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>40</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>41</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>42</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>43</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_6</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>44</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_7</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>45</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_8</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>46</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_9</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>47</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>48</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>49</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>50</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>51</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>52</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>53</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>54</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>55</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>56</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>57</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>58</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>59</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>60</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>61</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>62</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>63</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>64</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>65</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>66</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>67</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>68</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>69</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>70</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>71</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>72</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>73</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>74</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>75</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>76</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>77</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>78</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>79</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>80</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>81</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>82</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>83</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>84</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>85</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>86</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>87</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>88</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>89</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>90</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>91</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>92</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>93</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>94</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>95</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>96</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>97</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>98</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>99</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>100</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>101</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>102</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>103</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tmot</Name>
+            <Units>Grad C</Units>
+            <Description>Engine temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>104</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>105</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>106</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>107</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>108</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 1" ecuPrefix="CCP2" engPrefix="AE31a">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\ME17831G_16_18A5_slave_ehooks.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE31a\LAB_ASAP_v8_DSG_AMS_AE31a_1ECU - SLAVE.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>110</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>111</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>112</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>113</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>114</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>115</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>116</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>117</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>118</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>119</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>120</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>121</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>122</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>123</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>124</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>125</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>126</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>127</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>128</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>129</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>130</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>131</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>132</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <Name>DFES_ctEntry</Name>
+            <Units>-</Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>812</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>133</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>134</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_10</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>135</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_11</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>136</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_12</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>137</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_13</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>138</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_14</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>139</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_15</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>140</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_16</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>141</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_17</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>142</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_18</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>143</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_19</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>144</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>145</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>146</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>147</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>148</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_6</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>149</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_7</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>150</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_8</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>151</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_9</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>152</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>153</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>154</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>155</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>156</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>157</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>158</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>159</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>160</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>161</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>162</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>163</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>164</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>165</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>166</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>167</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>168</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>169</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>170</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>171</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>172</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>173</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>174</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>175</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>176</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>177</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>178</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>179</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>180</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>181</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>182</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>183</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>184</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>185</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>186</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>187</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>188</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>189</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>190</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>191</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>192</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>193</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>194</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>195</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>196</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>197</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>198</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>199</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>200</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>201</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>202</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>203</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>204</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>205</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>206</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>207</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>208</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>209</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>210</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>211</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>212</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 2" ecuPrefix="CCP1" engPrefix="AE34">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\ME17831J_22_20A0_eh.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\AE34.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>214</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>215</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>216</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>217</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>218</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>219</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>220</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>te_l</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long)</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>221</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>222</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>223</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>224</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>225</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>226</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>227</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>228</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>229</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>230</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>231</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>232</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>233</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>234</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>235</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>236</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <Name>DFES_numDFC_6</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>801</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_7</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>802</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_8</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>803</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_9</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>804</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_10</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>805</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_ctEntry</Name>
+            <Units></Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>237</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>APP_r</Name>
+            <Units>%</Units>
+            <Description>Standardized accelerator pedal position</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>238</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>239</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>240</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>241</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>242</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>243</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>244</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>245</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>246</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>247</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>248</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>249</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>250</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>251</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>252</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>253</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>254</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>255</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>256</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>257</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>258</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>259</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>260</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>261</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>262</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>263</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>264</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>265</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>266</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>267</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>268</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>269</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>270</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>271</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>272</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>273</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>274</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>275</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_master</Name>
+            <Units></Units>
+            <Description>Condition MASTER-ECU</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>276</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>277</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>278</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>279</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>280</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>281</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>282</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>283</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>284</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>285</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>286</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msabnav_w</Name>
+            <Units>kg/h</Units>
+            <Description>exhaust gas mass flow at outlet vales corrected by content, bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>287</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>288</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>289</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>290</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>291</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>292</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>293</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>294</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>295</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>296</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>297</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>298</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>299</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>300</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>301</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tmot</Name>
+            <Units>Grad C</Units>
+            <Description>Engine temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>302</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>303</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>304</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>305</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>306</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+    <ECU ecuName="ECU 3" ecuPrefix="CCP2" engPrefix="AE34">
+      <Paths>
+        <A2LPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\ME17831J_22_20A0_eh_Slave.a2l</A2LPath>
+        <LABPath>C:\HorusSE Repo System Dir\aml_test_cell_1_horus_bench\ECUFiles\AE34\AE34 - Slave.lab</LABPath>
+      </Paths>
+      <Measurements>
+        <Raster name="segment synchronous">
+          <Measurement>
+            <Name>dwkrz_0</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>308</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_1</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>309</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_2</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>310</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_3</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>311</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_4</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>312</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dwkrz_5</Name>
+            <Units>Grad KW</Units>
+            <Description>cyl.-spec. ignition-timing retardation with retardation for dynamics</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>313</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>dzwwl</Name>
+            <Units>Grad KW</Units>
+            <Description>delta ignition angle from warm-up</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>314</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>nmot_w</Name>
+            <Units>1/min</Units>
+            <Description>Engine speed</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>315</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_0</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>316</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_1</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>317</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_2</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>318</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_3</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>319</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_4</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>320</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tez_l_5</Name>
+            <Units>ms</Units>
+            <Description>effectiv injection time (long) cylinderindividuell</Description>
+            <DataType>ULONG</DataType>
+            <HorusID>321</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wee</Name>
+            <Units>Grad KW</Units>
+            <Description>angle injection-end in normal operation</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>322</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: exhaust valve closes related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>323</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwe_w</Name>
+            <Units>Grad KW</Units>
+            <Description>Angle: intake valve opens related to LWOT</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>324</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwsa_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle outlet valve closing</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>325</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wnwse_w</Name>
+            <Units>Grad KW</Units>
+            <Description>desired camshaft angle inlet valve opened</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>326</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwbas</Name>
+            <Units>Grad KW</Units>
+            <Description>earliest possible ignition angle (knock-limitation)</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>327</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwgru</Name>
+            <Units>Grad KW</Units>
+            <Description>basic ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>328</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwist</Name>
+            <Units>Grad KW</Units>
+            <Description>real ignition angle</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>329</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>zwout</Name>
+            <Units>Grad KW</Units>
+            <Description>Ignition angle output value</Description>
+            <DataType>SBYTE</DataType>
+            <HorusID>330</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="10ms time synchronous">
+          <Measurement>
+            <Name>DFES_numDFC_6</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>806</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_7</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>807</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_8</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>808</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_9</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>809</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_10</Name>
+            <Units></Units>
+            <Description></Description>
+            <DataType>UWORD</DataType>
+            <HorusID>810</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_ctEntry</Name>
+            <Units>-</Units>
+            <Description>Number of occupied DFES Entries</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>811</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_0</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>331</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_1</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>332</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_2</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>333</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_3</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>334</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_4</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>335</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>DFES_numDFC_5</Name>
+            <Units>-</Units>
+            <Description>names of stored fault checks in the error memory</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>336</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fr_w</Name>
+            <Units>-</Units>
+            <Description>Lambda controller output (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>337</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>frm_w</Name>
+            <Units>-</Units>
+            <Description>fast mean value of lambda control factor (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>338</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstr_w</Name>
+            <Units>-</Units>
+            <Description>relative current lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>339</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>hatlstsr_w</Name>
+            <Units>-</Units>
+            <Description>relative desired lift of TC-actuator</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>340</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lambas_w</Name>
+            <Units>-</Units>
+            <Description>lambda base value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>341</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsbg_w</Name>
+            <Units>-</Units>
+            <Description>Desired Lambda limitation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>342</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsoni_w</Name>
+            <Units>-</Units>
+            <Description>Lambda actual value</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>343</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lamsons_w</Name>
+            <Units>-</Units>
+            <Description>required lambda referred to lambda sensor fitting location</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>344</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>lbtsaw_w</Name>
+            <Units>-</Units>
+            <Description>Lambda component protection choiced (bank1)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>345</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>mshfm_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow HFM</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>346</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_bPSwtVlvCtl</Name>
+            <Units></Units>
+            <Description>activation of oil pressure pump</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>347</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Oil_tSwmp</Name>
+            <Units>deg C</Units>
+            <Description>Oil temperature in oil sump</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>348</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>OilP_p</Name>
+            <Units>hPa</Units>
+            <Description>Oil pressure</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>349</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pistnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Filtered low pressure real value (absolute pressure)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>350</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psollnd_w</Name>
+            <Units>kPa</Units>
+            <Description>Low pressure setpoint</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>351</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psr_w</Name>
+            <Units>hPa</Units>
+            <Description>intake manifold pressure (absolute)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>352</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>psrs_w</Name>
+            <Units>hPa</Units>
+            <Description>Set intake manifold pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>353</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvd_w</Name>
+            <Units>hPa</Units>
+            <Description>pressure upstream throttle valve ( value from 0...5120hPa )</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>354</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pvds_w</Name>
+            <Units>hPa</Units>
+            <Description>Desired pressure upstream throttle valve (values from 0...5120hPa)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>355</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rk_w</Name>
+            <Units>%</Units>
+            <Description>Relative fuel mass</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>356</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rl_w</Name>
+            <Units>%</Units>
+            <Description>Relative air charge (Word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>357</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>rlsol_w</Name>
+            <Units>%</Units>
+            <Description>desired relative air charge</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>358</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ub</Name>
+            <Units>V</Units>
+            <Description>Battery voltage</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>359</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkba_w</Name>
+            <Units>%DK</Units>
+            <Description>throttle angle with respect to lower mechanical stop</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>360</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wdkls_w</Name>
+            <Units>%</Units>
+            <Description>desired throttle angle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>361</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>wped_w</Name>
+            <Units>% PED</Units>
+            <Description>normalized angle acceleration pedal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>362</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+        <Raster name="100ms time synchronous">
+          <Measurement>
+            <Name>ActMod_trqClth</Name>
+            <Units>Nm</Units>
+            <Description>actual engine torque - clutch torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>363</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ActMod_trqInr</Name>
+            <Units>Nm</Units>
+            <Description>Current, back-calculated inner engine torque</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>364</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_ldr</Name>
+            <Units></Units>
+            <Description>Flag for condition boost control activ</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>365</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lduv</Name>
+            <Units></Units>
+            <Description>condition for driving the output stage of the dump valve</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>366</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_lr</Name>
+            <Units></Units>
+            <Description>LREB: condition for Lambda closed loop control upstream catalyst; bank 1</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>367</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phada</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(outlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>368</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>B_phade</Name>
+            <Units></Units>
+            <Description>adaption crankshaft/camshaft(inlet) performed</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>369</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_0</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>370</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>EpmCaS_phiCaSOfsAvg_1</Name>
+            <Units>deg CrS</Units>
+            <Description>average value of camshaft offset</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>371</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>Epm_stSync</Name>
+            <Units></Units>
+            <Description>state of synchronization</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>372</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fkmsdk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for mass-flow substitute load signal</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>373</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fpuk_w</Name>
+            <Units>-</Units>
+            <Description>correction factor for HFM in pulsation range</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>374</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>fra_w</Name>
+            <Units>-</Units>
+            <Description>multiplicative correction of the mixture adaptation (word)</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>375</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>miopt_w</Name>
+            <Units>%</Units>
+            <Description>optimum indicated torque</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>376</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdk_w</Name>
+            <Units>kg/h</Units>
+            <Description>air-mass flow through throttle valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>377</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>msdks_w</Name>
+            <Units>kg/h</Units>
+            <Description>set air mass flow through throttling valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>378</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>ora_w</Name>
+            <Units>%</Units>
+            <Description>additive correction of the mixture adaptation</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>379</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pabnav_w</Name>
+            <Units>hPa</Units>
+            <Description>Actual exhaust gas pressure downstream of exhaust valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>380</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pbrint_w</Name>
+            <Units>hPa</Units>
+            <Description>Partial pressure (inert gas + air) in combustion compart through internal EGR</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>381</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>PthLead_trqInrLead</Name>
+            <Units>Nm</Units>
+            <Description>Inner torque lead value</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>382</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>pu_w</Name>
+            <Units>hPa</Units>
+            <Description>Ambient pressure</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>383</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>RngMod_trqLos</Name>
+            <Units>Nm</Units>
+            <Description>sum of all engine losses including frictional torque adaption</Description>
+            <DataType>SWORD</DataType>
+            <HorusID>384</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taev_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature at inlet valve</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>385</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>taikr_w</Name>
+            <Units>Grad C</Units>
+            <Description>Exhaust gas temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>386</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tasr_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature in manifold</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>387</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavdk_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream throttle</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>388</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tavv_w</Name>
+            <Units>Grad C</Units>
+            <Description>air temperature upstream booster [°C]</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>389</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tfuelr</Name>
+            <Units>Grad C</Units>
+            <Description>fuel temperature - measured sensor raw value (not filtered)</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>390</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>toch</Name>
+            <Units>Grad C</Units>
+            <Description>oil temperature in cylinder head</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>391</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_OffsLrn_I.nrOffsLrnStep</Name>
+            <Units>-</Units>
+            <Description>Class instance of public class for offset learning / Actual offset learning step</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>392</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>TrbCh_uElStopClsdSens1B1</Name>
+            <Units>V</Units>
+            <Description>Lower electrical stop sensor 1 bank 1</Description>
+            <DataType>UWORD</DataType>
+            <HorusID>393</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+          <Measurement>
+            <Name>tumg</Name>
+            <Units>Grad C</Units>
+            <Description>ambient air temperature</Description>
+            <DataType>UBYTE</DataType>
+            <HorusID>394</HorusID>
+            <AverageID>65534</AverageID>
+          </Measurement>
+        </Raster>
+      </Measurements>
+    </ECU>
+  </CANBus>
+</EngineConfiguration>
