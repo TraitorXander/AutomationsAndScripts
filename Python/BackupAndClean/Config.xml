@@ -1,0 +1,17 @@
+<BackupAndClean_Config>
+    <Backup enabled="True">
+        <BackupLocation>J:\SWBackup</BackupLocation>
+        <BackupPaths>
+            <Path>W:\DaTAQPro Licences</Path>
+            <Path>W:\DSG Support Requests</Path>
+        </BackupPaths>
+    </Backup>
+    <SpringClean enabled="True">
+        <DeleteOlderThan>5</DeleteOlderThan>
+        <Filter>txt,csv,zip</Filter>
+        <CleanPaths>
+            <Path>J:\SWBackup</Path>
+            <Path>W:\Alex Billingham\Plugins</Path>
+        </CleanPaths>
+    </SpringClean>
+</BackupAndClean_Config>
