@@ -5,7 +5,7 @@ import pyperclip3 as pc
 
 def main():
     try:
-        df = pd.read_csv("MahaErrors.csv")
+        df = pd.read_csv("415Errors.csv")
         create_switch(df)
     except Exception as exc:
         print("Error in main(): " + str(exc))
