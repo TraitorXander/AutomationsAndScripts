@@ -6,7 +6,7 @@
             <Path>W:\DSG Support Requests</Path>
         </BackupPaths>
     </Backup>
-    <SpringClean enabled="True">
+    <SpringClean enabled="False">
         <DeleteOlderThan>5</DeleteOlderThan>
         <Filter>txt,csv,zip</Filter>
         <CleanPaths>
