@@ -1,0 +1,46 @@
+Number,Meaning
+1,Device busy
+2,Device offline
+3,Measuring range overflow
+4,Calibration error
+5,"Calibration not possible (zero gas, tail gas)"
+6,"Error while calculating the measurement value (concentration, temperature, pressure detector)"
+7,Pressure too high
+8,Pressure too low
+9,Pressure regulator error
+10,Temperature too high
+11,Temperature too low
+12,Temperature regulator error
+13,Chiller error
+14,Humidity sensor error
+15,Flame error
+16,Suction error
+17,Condensate bottle full
+18,Sampling system error
+20,Hardware error
+21,Software error
+22,Quality assurance error
+30,Maintenance required
+50,Device offline
+51,Lincheck
+52,Hangup check
+53,HC response check
+54,CO cross check
+55,NOx converter check
+56,CH4 cutter efficiency check
+57,H2O rejection ratio check
+58,CLD quench check
+59,FID O2 interference check
+60,System response time check
+61,Drift check
+62,Analyzer response time check
+63,ANR check
+64,System mix gas check (analyzer)
+65,Midspan check
+66,Lincheck GDU
+67,Interference check (N20)
+81,Leak check
+82,Pressure sensor check
+83,System mix gas check (stream)
+84,Chiller check
+99,General error
